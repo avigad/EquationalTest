@@ -10,11 +10,12 @@ autoImplicit = false
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
+rev = "v4.20.0-rc2"
 
 [[require]]
 name = "Duper"
 scope = "leanprover-community"
-rev = "hammer"
+rev = "v4.20.0-rc2"
 
 [[lean_lib]]
 name = "EquationalTest"
