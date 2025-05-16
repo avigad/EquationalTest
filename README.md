@@ -6,4 +6,4 @@ From the main folder:
 
 Then start VS Code and open `EquationalTest/Basic.lean`.
 
-We currently get a warning after `lake exe cache get` and for some reason the build takes a long time (it seems to recompile parts of Mathlib), but otherwise, it works.
+There is a warning after `lake exe cache get` but it seems innocuous. The build takes a little while, so be patient.

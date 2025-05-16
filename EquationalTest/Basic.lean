@@ -33,5 +33,6 @@ lemma Lemma2 (h : Equation1689 M) (a : M) : ∃ b c d, f b c = S d a := by
 lemma Lemma3 (h : Equation1689 M) (a : M) : ∃ e, S e a = a := by
   duper [*]
 
+-- use duper? to remove the warning.
 theorem singleton_law (h : Equation1689 M) : Equation2 M := by
   duper [*]
